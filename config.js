@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "JESUS~CRASH~V1~zopQQLbZ#vHelClymzv2P3TGvuIYyoVAGFu4QVGR5HA5E65kddU0",
+SESSION_ID: process.env.SESSION_ID || "JESUS~CRASH~V1~eogm1DYA#g0OP6KCLanpWPo8GdRcB4W1zEBA_rTIrT8jjIhHoO_A",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
@@ -25,7 +25,7 @@ MENTION_REPLY: process.env.MENTION_REPLY || "true",
 // make true if want auto voice reply if someone menetion you 
 MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/fuoqii.png",
 // add custom menu and mention reply image url
-PREFIX: process.env.PREFIX || """,
+PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "JESUS-CRASH-V1",
 // add bot namw here for menu
@@ -37,7 +37,7 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "50941350366",
+OWNER_NUMBER: process.env.OWNER_NUMBER ||"50941350366",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "𓄂⍣⃝𝐆𝚯𝐃✰𝆺꯭𝐌ꝛ፝֟ 𝗞𝚵✮",
 // add bot owner name
